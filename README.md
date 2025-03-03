@@ -10,7 +10,7 @@ A külső rendezés – mivel többszöri háttértárba írás és olvasás tö
 
 Az alábbi ábrán a külső rendezés, pontosabban a külső, összefésüléses eljáráson alapuló rendezés (*external merge sort*) elvét és főbb lépéseit láthatjuk. Az egyes lépések számokkal jelennek meg és az ábra alján olvasható a szöveges kifejtésük.
 
-<img src="https://github.com/pythontudasepites/saved_canvas_graphics/blob/main/external_merge_sort_diagram.jpg" width="800" height="495">
+<img src="https://github.com/pythontudasepites/external_sorting/blob/main/external_merge_sort_diagram.jpg" width="800" height="495">
 
 Az *external_sort.py* modulfájlban a ***sort_large_dataset*** nevű függvény az ábrán bemutatott elvet követve egy adott nevű fájl soraiként tárolt véletlenszerű karakterláncokat képes valamilyen ismérv (pl. hossz) szerint sorban rendezni, és a rendezett adatokat tartalmazó fájlt egy megadott nevű fájlba menteni. A megértést a részletes kommentek és az ábra segítik. A futtatáshoz Python 3.12+ verzió szükséges.
 
