@@ -1,6 +1,6 @@
 # Nagyméretű adathalmazok rendezése
 
-Számos esetben igényként merülhet fel egy adathalmaz valamilyen ismérv szerinti sorbarendezése. Például ha a szabványos könyvtár itertools moduljának groupby() függvényét akarjuk használni, akkor a helyes működéshez az argumentumként átadott adatsorozatnak rendezettnek kell lenni. A sorbarendezést megtehetjük például a sorted() beépített függvénnyel, amely beállítástól függően növekvő vagy csökkenő sorrendben rendezi az értékeket és egy listában adja vissza azokat. Ez mindaddig jól működik, amíg az adatok számossága akkora, hogy ez a rendezett lista befér a számítógép memóriájába. 
+Számos esetben igényként merülhet fel egy adathalmaz valamilyen ismérv szerinti sorbarendezése. Például ha a szabványos könyvtár itertools moduljának **groupby()** függvényét akarjuk használni, akkor a helyes működéshez az argumentumként átadott adatsorozatnak rendezettnek kell lenni. A sorbarendezést megtehetjük például a sorted() beépített függvénnyel, amely beállítástól függően növekvő vagy csökkenő sorrendben rendezi az értékeket és egy listában adja vissza azokat. Ez mindaddig jól működik, amíg az adatok számossága akkora, hogy ez a rendezett lista befér a számítógép memóriájába. 
 
 Mi van azonban akkor, ha olyan nagy adathalmazzal kell dolgozni, amely már nem tölthető be a memóriába a rendezéshez?
 
